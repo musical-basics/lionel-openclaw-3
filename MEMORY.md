@@ -12,6 +12,7 @@
 ## Atomic Memory Directory
 
 ### Projects
+- [Belgium Concert 2026](memory/projects/belgium-concert-2026.md)
 - [DreamPlay](memory/projects/dreamplay.md)
 
 ### Tools
@@ -28,8 +29,8 @@
 
 ## Recently Promoted
 
-(nothing yet)
+- 2026-04-17: Added Belgium Concert 2026 project memory for the June 11 Zaventem concert, including ticket target, roles, constraints, and open strategic decisions.
 
 ## Distillation Log
 
-(nothing yet)
+- 2026-04-17: Promoted Belgium concert marketing briefing into `memory/projects/belgium-concert-2026.md`.
