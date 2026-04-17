@@ -12,7 +12,7 @@
 ## Atomic Memory Directory
 
 ### Projects
-- (none yet)
+- [DreamPlay](memory/projects/dreamplay.md)
 
 ### Tools
 - [Embedding-friendly writing](memory/tools/embedding-friendly-memory-writing.md)
