@@ -225,3 +225,54 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
+
+
+## Memory System V2
+
+You wake up fresh each session. These files are your continuity:
+
+- **Daily notes:** `memory/YYYY-MM-DD.md` — raw logs under `## [HH:MM] — [Context]` headers
+- **Pointer index:** `MEMORY.md` — small always-loaded index pointing to atomic files
+- **Atomic recall:** `memory/projects/`, `memory/tools/`, `memory/people/`, `memory/ideas/`, `memory/summaries/`
+- **Self-correction:** `.learnings/` — structured logs for learnings, errors, and feature requests
+
+### Routing Rule: Behavior vs Recall
+
+- Behavior / response style -> `SOUL.md`
+- Operational workflow / procedure -> `AGENTS.md`
+- Tool-specific local note -> `TOOLS.md`
+- User personal context / preference -> `USER.md`
+- Project fact / decision / milestone -> `memory/projects/<slug>.md`
+- Non-user person context -> `memory/people/<slug>.md`
+- Tool or API reference note -> `memory/tools/<slug>.md`
+- Idea / todo / backlog -> `memory/ideas/backlog.md`
+- Periodic summary -> `memory/summaries/<period>.md`
+
+### Daily Note Format
+
+Write entries under `## [HH:MM] — [Context]` headers with typed prefixes:
+
+- `* Decision:` — choice made
+- `* Information:` — factual context
+- `* Insight:` — pattern or realization
+- `* Error:` — command or tool failure
+- `* Task:` — action item
+- `* Preference:` — stated user preference
+- `* Correction:` — the human corrected my behavior
+
+### Distillation Rules
+
+Promote only when the signal is durable:
+- Decisions: promote when strategic or matters for more than a month
+- Information: promote when stable identity, credentials pointer, or durable config
+- Preferences: promote only after appearing more than once
+- Errors: promote only when the fix is reusable
+- Insights: promote only after recurring across 3+ daily notes
+- Tasks: never promote completed tasks
+
+### MEMORY.md Rules
+
+- `MEMORY.md` is a pointer index only, not a knowledge store
+- ONLY load in main session (direct chats with your human)
+- DO NOT load in shared contexts (Discord, group chats)
+- Never rewrite from scratch — use targeted edits or append-only updates
