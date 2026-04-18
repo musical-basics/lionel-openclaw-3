@@ -11,3 +11,7 @@ memory/.dreams/
 .tmp/
 .tmp-home/
 .pm2/
+projects/
+data/
+deploy/
+reports/
